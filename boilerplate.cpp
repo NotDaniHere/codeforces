@@ -6,7 +6,7 @@ using namespace std;
 #define S second
 #define cases int _; cin >> _; while(_--)
 typedef long long ll;
-typedef unsigned long long uint;
+typedef unsigned long long ull;
 typedef vector<int> vi;
 typedef pair<int, int> pi;
 typedef set<int> si;

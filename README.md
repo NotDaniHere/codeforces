@@ -1,16 +1,17 @@
 # Codeforces Solutions
 
-This repository contains a collection of my solutions to various Codeforces problems. Most solutions are implemented in **C++**, with some in **Python**.
+This repository contains a collection of my solutions to various Codeforces problems, and my template for problems. Most solutions are implemented in **C++**, with a tiny few being in **Python**.
 
 ## Structure
 
 - Problems are organized by contest and problem number.
 - Each solution includes the source code and, where applicable, a brief explanation.
+- Template file, generates my default template. (cft, bash)
 
 ## Languages Used
 
-- **C++** (majority)
-- **Python** (some)
+- **C++** (almost all)
+- **Python** (tiny fraction)
 
 ## Usage
 
@@ -18,4 +19,4 @@ Feel free to browse the solutions for reference or learning purposes. If you hav
 
 ## License
 
-This repository is for educational purposes. Please do not plagiarize for contest submissions.
+This repository is for educational purposes. 

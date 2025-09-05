@@ -1,11 +1,9 @@
-//DaniHere competitive programming template for codeforces. 2025-09-05 last updated
 #include <bits/stdc++.h>
 using namespace std;
 #define NO cout<<"NO\n"
 #define YES cout<<"YES\n"
 #define F first
 #define S second
-#define pb push_back
 #define cases int _; cin >> _; while(_--)
 typedef long long ll;
 typedef unsigned long long ull;
@@ -13,12 +11,19 @@ typedef vector<int> vi;
 typedef pair<int, int> pi;
 typedef set<int> si;
 void solve() {
+    int a,b; cin >> a >> b;
+    vi A(a); for(int i = 0; i < a; i++) cin >> A[i];
+    vi B(a); for (int i = 0; i < a; i++) B[i] = A[i]%b;
+    for(int i = 0; i < a; i++) cout << B[i]*b + A[i] << ' ';
+    cout << '\n';
     
+
 
 }
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(0);
-    cases solve();
+    cases {
+        solve();
+    }
+
     return 0;
 }
